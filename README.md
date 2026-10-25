@@ -18,6 +18,7 @@ Data warehousing concepts, ETL processes, and business intelligence tools.
 
 ## Technologies
 - SQL
+- NOSQL MongoDB
 - Microsoft SQL Server
 - SQL Server Management Studio (SSMS)
 - SQL Server Integration Services (SSIS)
