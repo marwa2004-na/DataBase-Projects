@@ -4,21 +4,21 @@ This repository contains academic projects and assignments completed during my d
 
 ## Projects and Courses
 
-## 1. Introduction to Database
+### 1. Introduction to Database
 
-Project: Riva Fashion Store Database
+**Project: Riva Fashion Store Database**
 
 Covers fundamental database concepts, ER diagrams, relational schemas, business rules, and normalization from UNF to 3NF, along with basic SQL implementation.
 
-## 2. Database Systems
+### 2. Database Systems
 
-Project: Blood Donation Database Management System
+**Project: Blood Donation Database Management System**
 
 Focuses on relational database design and implementation using Oracle SQL, including table creation, integrity constraints, SQL functions, subqueries, and views. The project also explores basic NoSQL operations using MongoDB.
 
-## 3. Data Warehouse Design
+### 3. Data Warehouse Design
 
-Project: Patient Appointment Behaviour Analysis
+**Project: Patient Appointment Behaviour Analysis**
 
 Involves designing a healthcare data warehouse and analysing patient appointment patterns. Uses Microsoft SQL Server, SSIS for ETL processes, SSAS for multidimensional analysis and KPI development, and SSRS for reporting and visualization.
 
