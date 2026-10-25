@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <CommandText>SELECT        Date_TB.Year, Patient_TB.First_Name, Patient_TB.Age_Group, Appointment_TB.Reason_For_Visit, Doctor_TB.First_Name AS Expr1, Fact_Patient_App.Doctor_Experience, Fact_Patient_App.Consultation_Fee
+FROM            Appointment_TB INNER JOIN
+                         Fact_Patient_App ON Appointment_TB.Appointment_ID = Fact_Patient_App.Appointment_ID INNER JOIN
+                         Date_TB ON Fact_Patient_App.Date_ID = Date_TB.Date_ID INNER JOIN
+                         Doctor_TB ON Fact_Patient_App.Doctor_ID = Doctor_TB.Doctor_ID INNER JOIN
+                         Patient_TB ON Fact_Patient_App.Patient_ID = Patient_TB.Patient_ID</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="Year">
+        <DataField>Year</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="First_Name">
+        <DataField>First_Name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Age_Group">
+        <DataField>Age_Group</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Reason_For_Visit">
+        <DataField>Reason_For_Visit</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Expr1">
+        <DataField>Expr1</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Doctor_Experience">
+        <DataField>Doctor_Experience</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Consultation_Fee">
+        <DataField>Consultation_Fee</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

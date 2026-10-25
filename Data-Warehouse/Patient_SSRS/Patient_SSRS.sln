@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Patient_SSRS", "Patient_SSRS\Patient_SSRS.rptproj", "{DCB05CBE-A9D6-4677-9953-36263722B435}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCB05CBE-A9D6-4677-9953-36263722B435}.Debug|Default.ActiveCfg = Debug
+		{DCB05CBE-A9D6-4677-9953-36263722B435}.Debug|Default.Build.0 = DebugLocal
+		{DCB05CBE-A9D6-4677-9953-36263722B435}.Debug|Default.Deploy.0 = DebugLocal
+		{DCB05CBE-A9D6-4677-9953-36263722B435}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{DCB05CBE-A9D6-4677-9953-36263722B435}.DebugLocal|Default.Build.0 = DebugLocal
+		{DCB05CBE-A9D6-4677-9953-36263722B435}.Release|Default.ActiveCfg = Release
+		{DCB05CBE-A9D6-4677-9953-36263722B435}.Release|Default.Build.0 = Release
+		{DCB05CBE-A9D6-4677-9953-36263722B435}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

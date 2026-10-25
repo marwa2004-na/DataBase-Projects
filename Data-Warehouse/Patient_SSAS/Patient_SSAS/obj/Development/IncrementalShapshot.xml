@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Patient_SSAS</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>sMij0hBZfI7w9tfGYKVh37P+WVI=5/6/2026 3:35:10 PM5/6/2026 3:34:39 PM</TimeStamp>
+        <ID>
+          <String>Patient Appointment DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>ArsjF8HjTS0jwxvMhdpEtln3PHI=5/6/2026 2:54:08 PM5/6/2026 3:34:39 PM</TimeStamp>
+        <ID>
+          <String>Patient Appointment DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>83k+aq+w/kJ04bTDgZUWBHEBwZE=5/6/2026 2:54:47 PM5/6/2026 3:34:39 PM</TimeStamp>
+        <ID>
+          <String>Date TB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fuV1C8Y5okDU8TEciUMAHuEyMhY=5/6/2026 3:10:43 PM5/6/2026 3:34:39 PM</TimeStamp>
+        <ID>
+          <String>Appointment TB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>byW4CGrjwcdIWXxpcqKjX2orDcg=5/6/2026 2:55:43 PM5/6/2026 3:34:39 PM</TimeStamp>
+        <ID>
+          <String>Patient TB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cP/xME7vpTlsUvczZ8XSYABVH/k=5/6/2026 2:55:45 PM5/6/2026 3:34:39 PM</TimeStamp>
+        <ID>
+          <String>Doctor TB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>RlP4dTUPaopFghDSKEXk7hRDerc=5/6/2026 3:09:06 PM5/6/2026 3:34:39 PMI1nOIx/P2SApn4iSvU1/62VivhI=5/6/2026 2:55:04 PM5/6/2026 3:34:39 PM</TimeStamp>
+        <ID>
+          <String>Patient Appointment DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>BW/B+DsdsS1Mp3ZapO04jAM55WI=5/6/2026 2:53:22 PM5/6/2026 3:34:39 PM</TimeStamp>
+      <ID>
+        <String>Patient_SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-05-06T11:35:17.493333Z</LastDeployed>
+</DeploymentSnapshot>

@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Patient_SSAS", "Patient_SSAS\Patient_SSAS.dwproj", "{7C6C0745-09BE-44FC-ABE2-DD2D97507BAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C6C0745-09BE-44FC-ABE2-DD2D97507BAD}.Development|Default.ActiveCfg = Development
+		{7C6C0745-09BE-44FC-ABE2-DD2D97507BAD}.Development|Default.Build.0 = Development
+		{7C6C0745-09BE-44FC-ABE2-DD2D97507BAD}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
