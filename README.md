@@ -8,7 +8,7 @@ This repository contains projects and assignments completed during my database-r
 Fundamental database concepts, ER diagrams, relational models, and basic SQL.
 
 ### 2. Database Systems
-Database design, normalization, relational databases, and SQL queries.
+Database design, table creation, integrity constraints, SQL functions, subqueries, views, and basic NoSQL operations using Oracle SQL and MongoDB.
 
 ### 3. Database Programming
 SQL programming, stored procedures, functions, triggers, and database-related programming tasks.
