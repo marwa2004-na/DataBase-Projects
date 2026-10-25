@@ -1,7 +1,7 @@
 ## Blood Donation Database
 
 ### Overview
-This project was developed as part of the Database Programming course at (UTAS).
+This project was developed as part of the Database System course at (UTAS).
 
 The project focuses on designing and implementing a blood donation database to manage donors, hospitals, nurses, and blood bags. It demonstrates relational database programming using Oracle SQL and document-oriented database operations using MongoDB.
 
